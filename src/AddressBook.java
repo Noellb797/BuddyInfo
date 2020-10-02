@@ -4,6 +4,7 @@ public class AddressBook {
     private ArrayList<BuddyInfo> buddies;
 
     public static void main(String[] args) {
+        //create a buddy and address book, add and remove buddy from address book
         BuddyInfo zed = new BuddyInfo("Zed");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(zed);
