@@ -26,4 +26,8 @@ public class AddressBook {
         buddies.remove(buddy);
     }
 
+    public void branchMethod() {
+        System.out.println("This is a method to test git branches");
+    }
+
 }
